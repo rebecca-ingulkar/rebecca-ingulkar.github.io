@@ -3,39 +3,59 @@ h1, h2, h3, h4, h5, p {
   font-weight: 200;
   color: #22223b;
 }
+h1 {
+  font-size: xx-large;
+}
 
 html {
   background-color: #f9f7f7;
 }
 
+/* MEDIA QUERIES
+@media (max-width: 425px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .name {
+   padding: auto;
+  }
+} */
+
 /*  NAVIGATION  */
+
+
 .nav {
   display: flex;
   height: 70px;
-  border-bottom: 1px solid black;
-  margin-left: 20px;
-  margin-right: 20px;
-  align-items: center;
+  /* border-bottom: 1px solid black; */
+  margin-left: 60px;
+  margin-right: 50px;
+  align-items: baseline;
 }
 
-li {
+ul {
   list-style: none;
-  display: inline;
+  display: flex;
   padding: 10px;
-  
+  margin-left: auto;
 }
 .nav-link {
   text-decoration: none;
   color: #22223b;
+  justify-content: end;
+  padding-left: 20px;
 }
 .nav-link:hover {
   color: #9a8c98;
+  cursor: pointer;
 }
 
 /* LINKS */
 a:hover {
   text-decoration: underline;
   color: #9a8c98;
+  cursor: pointer;
 }
 a {
   text-decoration: none;
@@ -45,28 +65,24 @@ a {
 /* Color container */
 .block-container {
   display: flex;
+  flex-direction: row;
   margin: 20px auto;
   width: 100%;
   /* box-sizing: border-box; */
   height: fit-content;
   background-color: #f2a900;
+  /* align-content: space-between; */
+  
 }
 
-.Portrait img{ 
+.photo img{ 
   width: 50%;
   height: auto;
   margin: 20px;
   float: right;
   margin-right: 50px;
+  min-width: 40%;
 }
-/* img {
-  display: inline;
-  align-items: right;
-  padding-left: 100px;
-  width: 50%;
-  height: auto;
-  margin: 50px;
-} */
 
 h2 {
   padding: 35px 10px 10px 10px;
@@ -77,6 +93,7 @@ h2 {
    padding: 10px 10px;
    margin-left: 50px;
 }
+
 
 
 /* LATEST BLOGS */
@@ -99,9 +116,9 @@ h3 {
   margin: auto;
   display: flex;
   padding-top: 5px;
-
 }
 
+/* LATEST BLOG */
 .latest-blog {
   /* border: 1px solid black; */
   width: 50%;
@@ -113,12 +130,27 @@ h3 {
 .blurb {
   margin-left: 10px;
 }
-
-footer {
-  align-content: center;
-  /* background-color: #f2a900; */
+i {
+  font-size: smaller;
 }
 
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: center;
+}
+
+
+/* BLOG PAGE */
+.blog-entry {
+  /* border: 1px solid black; */
+}
+.blog-entry p {
+  padding: 10px 30px;
+}
 
 
 
