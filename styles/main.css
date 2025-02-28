@@ -1,4 +1,10 @@
-h1, h2, h3, h4, h5, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+li {
   font-family: 'Sprectral', serif;
   font-weight: 200;
   color: #22223b;
@@ -11,19 +17,7 @@ html {
   background-color: #f9f7f7;
 }
 
-/* MEDIA QUERIES
-@media (max-width: 425px) {
-  nav {
-    display: flex;
-    flex-direction: column;
-  }
-  .name {
-   padding: auto;
-  }
-} */
-
 /*  NAVIGATION  */
-
 
 .nav {
   display: flex;
@@ -72,16 +66,17 @@ a {
   height: fit-content;
   background-color: #f2a900;
   /* align-content: space-between; */
-  
 }
 
-.photo img{ 
-  width: 50%;
+.photo img {
+  width: 100%;
   height: auto;
   margin: 20px;
   float: right;
   margin-right: 50px;
   min-width: 40%;
+  padding-top: 35px;
+  padding-right: 10px;
 }
 
 h2 {
@@ -90,11 +85,10 @@ h2 {
   display: flex;
 }
 .block-container p {
-   padding: 10px 10px;
-   margin-left: 50px;
+  padding: 10px 10px;
+  margin-left: 50px;
+  width: 60%;
 }
-
-
 
 /* LATEST BLOGS */
 
@@ -103,7 +97,6 @@ h2 {
   display: flex;
   padding: 10px;
   margin: 5px;
-  
 }
 
 h3 {
@@ -118,7 +111,6 @@ h3 {
   padding-top: 5px;
 }
 
-/* LATEST BLOG */
 .latest-blog {
   /* border: 1px solid black; */
   width: 50%;
@@ -143,7 +135,6 @@ footer {
   align-items: center;
 }
 
-
 /* BLOG PAGE */
 .blog-entry {
   /* border: 1px solid black; */
@@ -152,9 +143,75 @@ footer {
   padding: 10px 30px;
 }
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 425px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  h1 {
+    font-size: 44px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-link {
+    padding: 5px 0;
+  }
+  /* Color container */
+  .block-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 100%;
+    height: fit-content;
+    background-color: #f2a900;
+  }
 
+  .photo img {
+    display: block;
+    margin: 0 25%;
+    width: 50%;
+    padding-bottom: 20px;
+    height: auto;
+    min-width: 40%;
+  }
 
+  h2 {
+    padding: 5px;
+    margin-left: 30px;
+    display: flex;
+    text-align: center;
+  }
+  .block-container p {
+    /* padding: 5px; */
+    margin-left: 30px;
+  }
+  .blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    margin: 5px;
+    justify-content: center;
+  }
+  .latest-blog {
+    /* border: 1px solid black;  */
+    width: 90%;
+    height: fit-content;
+  }
+}
 
-
-
-#4a4e69 #22223b #f2a900 #f9f7f7 #9a8c98
+/* color palette
+#4a4e69 #22223b #f2a900 #f9f7f7 #9a8c98 */
