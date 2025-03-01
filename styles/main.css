@@ -88,6 +88,10 @@ a {
   display: flex;
   justify-content: center;
 }
+#subtitle {
+  display: block;
+  text-align: center;
+}
 .block-container p {
   padding: 10px 10px;
   margin-left: auto;
@@ -171,8 +175,17 @@ footer {
 .blog-entry {
   /* border: 1px solid black; */
 }
-.blog-entry p {
+.blog-entry p, h2 {
   padding: 10px 30px;
+}
+#values {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px;
+}
+.quote {
+  background-color: #9a8c98;
+  color: #22223b;
 }
 
 /* MEDIA QUERIES */
