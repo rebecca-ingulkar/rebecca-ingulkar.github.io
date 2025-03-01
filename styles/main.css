@@ -138,7 +138,6 @@ h3 {
   text-align: center;
 }
 
-
 .blog-container img {
   width: 95%;
   height: auto;
@@ -175,7 +174,8 @@ footer {
 .blog-entry {
   /* border: 1px solid black; */
 }
-.blog-entry p, h2 {
+.blog-entry p,
+h2 {
   padding: 10px 30px;
 }
 #values {
@@ -235,7 +235,6 @@ footer {
     justify-content: center;
   }
 
-  
   .block-container p {
     justify-content: center;
   }
@@ -243,10 +242,11 @@ footer {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-left: 50px;
+    /* margin-left: 10px; */
   }
   .about-container p {
     width: 100%;
+    margin-left: 10px;
   }
   .blog-container {
     display: flex;
