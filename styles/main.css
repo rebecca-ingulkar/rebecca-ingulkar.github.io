@@ -35,7 +35,7 @@ ul {
   margin-left: auto;
 }
 .nav-link {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: #22223b;
   justify-content: end;
   padding-left: 20px;
@@ -52,7 +52,6 @@ a:hover {
   cursor: pointer;
 }
 a {
-  text-decoration: none;
   color: #22223b;
 }
 
