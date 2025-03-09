@@ -194,7 +194,7 @@ h2 {
 }
 
 /* MEDIA QUERIES */
-@media (min-width: 225px) and (max-width: 625px) {
+@media (min-width: 225px) and (max-width: 1000px) {
   .nav {
     display: flex;
     flex-direction: column;
@@ -246,12 +246,20 @@ h2 {
   .about-me h2 {
     display: flex;
     justify-content: center;
-    width: 100%;
+    /*width: 100%; */
     /* margin-left: 10px; */
+  }
+  .about-me {
+    padding: 10px 10px;
+    /* margin-left: 20px; */
+    width: 87%;
+  }
+  .about-me p {
+    text-justify: inter-word;
   }
   .about-container p {
     width: 100%;
-    margin-left: 10px;
+    margin-left: auto;
   }
   .blog-container {
     display: flex;
