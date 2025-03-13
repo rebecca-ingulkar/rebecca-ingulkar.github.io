@@ -70,12 +70,12 @@ a {
 .photo img {
   width: 60%;
   height: auto;
-  margin: 20px;
+  /* margin: 20px; */
   float: right;
-  margin-right: 50px;
+  /* margin-right: 50px; */
   min-width: 40%;
-  padding-top: 35px;
-  padding-right: 10px;
+  /* padding-top: 35px; */
+  padding: 30px;
 }
 .introduction {
   /* border: 1px solid black; */
@@ -98,8 +98,8 @@ a {
   justify-content: center;
 }
 .about-me {
-  padding: 10px 10px;
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
   width: 100%;
 }
 
@@ -111,14 +111,14 @@ a {
 .about-me p {
   padding: 10px 10px;
   /* margin-left: 50px; */
-  width: 100%;
+  width: 120%;
   text-align: justify;
   text-justify: inter-word;
 }
 .about-container {
   display: flex;
   flex-direction: row;
-  margin: 20px auto;
+  /* margin: 20px auto; */
   width: 100%;
   /* box-sizing: border-box; */
   height: fit-content;
@@ -231,6 +231,9 @@ h2 {
     height: fit-content;
     background-color: #f2a900;
   }
+  .introduction p {
+    text-align: center;
+  }
 
   .photo img {
     display: block;
@@ -246,10 +249,10 @@ h2 {
     justify-content: center;
   }
   .about-me h2 {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
     width: 100%;
-    /* margin-left: 10px; */
   }
   .about-me {
     /* padding: 10px 10px; */
@@ -258,7 +261,7 @@ h2 {
   }
   .about-me p {
     text-justify: inter-word;
-    padding-right: 10px;
+    padding-right: 20px;
   }
   .about-container p {
     width: 100%;
