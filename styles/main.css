@@ -68,7 +68,7 @@ a {
 }
 
 .photo img {
-  width: 100%;
+  width: 60%;
   height: auto;
   margin: 20px;
   float: right;
@@ -99,19 +99,21 @@ a {
 }
 .about-me {
   padding: 10px 10px;
-  margin-left: 50px;
-  width: 60%;
+  margin-left: 10px;
+  width: 100%;
 }
 
 .about-me h1 {
-  padding: 35px 10px 10px 10px;
-  margin-left: auto;
+  /* padding: 35px 10px 10px 10px;
+  margin-left: auto; */
   display: flex;
 }
 .about-me p {
   padding: 10px 10px;
-  margin-left: 50px;
-  width: 60%;
+  /* margin-left: 50px; */
+  width: 100%;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .about-container {
   display: flex;
@@ -246,20 +248,22 @@ h2 {
   .about-me h2 {
     display: flex;
     justify-content: center;
-    /*width: 100%; */
+    width: 100%;
     /* margin-left: 10px; */
   }
   .about-me {
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
     /* margin-left: 20px; */
-    width: 87%;
+    width: 93%;
   }
   .about-me p {
     text-justify: inter-word;
+    padding-right: 10px;
   }
   .about-container p {
     width: 100%;
     margin-left: auto;
+    padding-right: 10px;
   }
   .blog-container {
     display: flex;
@@ -270,9 +274,13 @@ h2 {
     justify-content: center;
   }
   .latest-blog {
-    /* border: 1px solid black;  */
+    /* border: 1px solid black; */
     width: 90%;
     height: fit-content;
+  }
+  .latest-blog h4,
+  p {
+    padding-left: 10px;
   }
 }
 
