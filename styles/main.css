@@ -17,7 +17,7 @@ html {
   background-color: #f9f7f7;
 }
 .highlight {
-  color: white;
+  color: #f9f7f7;
 }
 
 /*  NAVIGATION  */
@@ -89,6 +89,10 @@ a {
   /* margin-left: 50px; */
   display: flex;
   justify-content: center;
+  text-align: center; 
+} 
+.introduction p {
+  text-align: center;
 }
 #subtitle {
   display: block;
@@ -121,7 +125,7 @@ a {
 .about-container {
   display: flex;
   flex-direction: row;
-  /* margin: 20px auto; */
+  margin: 20px auto;
   width: 100%;
   /* box-sizing: border-box; */
   height: fit-content;
@@ -164,6 +168,7 @@ h3 {
 }
 .blurb {
   margin-left: 10px;
+  margin-right: 10px;
 }
 i {
   font-size: smaller;
@@ -174,13 +179,14 @@ footer {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  margin: 0 auto;
+  margin-top: 40px;
   align-items: center;
+  height: 80px;
 }
 
 /* BLOG PAGE */
 .blog-entry {
-  /* border: 1px solid black; */
+  padding-bottom: 20px;
 }
 .blog-entry p,
 h2 {
@@ -200,6 +206,37 @@ h2 {
 .quote {
   background-color: #9a8c98;
   color: #22223b;
+}
+
+/*   ----    BOTTOM NAVIGATION  -----   */
+
+
+.back-button:hover,
+.next-button:hover {
+  background-color: #f2a900;
+  color: #f9f7f7;
+  text-decoration: none;
+}
+
+.back-button, .next-button {
+  background-color: #9a8c98;
+  color: #f9f7f7;
+  /* transform: translate(-50%, -50%); */
+  border-radius: 0;
+  margin-bottom: 50px;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+
+.bottom-nav {
+  position: absolute;
+  padding-top: 50px;
+  left: 50%; /* Moves button to the middle horizontally */
+  transform: translate(-50%, -50%); Centers the button */
+  padding: 10px 20px;
+  gap: 20px;
+  
 }
 
 /* MEDIA QUERIES */
@@ -292,6 +329,39 @@ h2 {
   p {
     padding-left: 10px;
   }
+  .jsexample {
+    max-width: 100%;
+  }
+
+  /*   ----    BOTTOM NAVIGATION  -----   */
+  
+  
+  .back-button, .next-button {
+    background-color: #9a8c98;
+    color: #f9f7f7;
+    margin-bottom: 50px;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: .9em;
+    
+  }
+  
+  
+  .bottom-nav {
+    position: absolute;
+    margin-top: 50px;
+    left: 50%; /* Moves button to the middle horizontally */
+    transform: translate(-50%, -50%); /* Centers the button */
+    display: flex;
+    align-content: center;
+    width: auto;
+    padding: 10px 10px;
+    gap: 20px;  
+  }
+
+
+
+
 }
 
 /* color palette
