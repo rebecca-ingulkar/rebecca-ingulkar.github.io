@@ -5,7 +5,7 @@ h4,
 h5,
 p,
 li {
-  font-family: 'Sprectral', serif;
+  font-family: 'Spectral', serif;
   font-weight: 200;
   color: #22223b;
 }
@@ -15,6 +15,9 @@ h1 {
 
 html {
   background-color: #f9f7f7;
+}
+.highlight {
+  color: white;
 }
 
 /*  NAVIGATION  */
@@ -145,6 +148,10 @@ h3 {
   margin: auto;
   display: flex;
   padding-top: 5px;
+}
+.jsexample {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .latest-blog {
