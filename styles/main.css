@@ -197,7 +197,7 @@ h2 {
   flex-direction: column;
   padding: 0px 30px;
 }
-#eq {
+#eq, .eq {
   display: flex;
   flex-direction: column;
   padding: 0px 30px;
