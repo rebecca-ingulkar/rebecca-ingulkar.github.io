@@ -4,7 +4,8 @@ h3,
 h4,
 h5,
 p,
-li {
+li,
+table {
   font-family: 'Spectral', serif;
   font-weight: 200;
   color: #22223b;
@@ -140,7 +141,7 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 100%;
-  max-width: 1600px;
+  /* max-width: 1600px; */
   margin: 0 auto;
   gap: 20px;
   padding: 20px;
@@ -219,6 +220,7 @@ h2 {
   color: #22223b;
 }
 
+
 /*   ----    BOTTOM NAVIGATION  -----   */
 
 
@@ -256,6 +258,35 @@ h2 {
 }
 #js-example:hover {
   cursor: pointer;
+}
+
+
+/*     TABLE    */
+table {
+  
+  display: flex;
+  justify-content: center;
+  /* width: 80%; */
+  border-collapse: collapse;
+}
+th {
+  font-size: 1.5em;
+  font-weight: 400;
+  border-bottom: 1px solid #9a8c98;
+  height: 50px;
+  padding: 10px;
+  
+  
+}
+
+td {
+  border-bottom: 1px solid #9a8c98;
+  text-align: center;
+  height: 50px;
+  padding: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+  
 }
 
 
