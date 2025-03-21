@@ -239,6 +239,15 @@ h2 {
   
 }
 
+/*   JS Example   */
+#js-example {
+  font-weight: 600;
+}
+#js-example:hover {
+  cursor: pointer;
+}
+
+
 /* MEDIA QUERIES */
 @media (min-width: 225px) and (max-width: 1000px) {
   .nav {
