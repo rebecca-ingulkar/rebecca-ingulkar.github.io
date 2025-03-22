@@ -108,7 +108,7 @@ a {
 .about-me {
   margin-left: 20px;
   margin-top: 10px;
-  width: 100%;
+  width: 90%;
 }
 
 .about-me h1 {
@@ -175,6 +175,13 @@ h3 {
   width: 90%;
   height: auto;
 }
+.latest-blog:hover, h4 {
+  /* background-color: #9a8c98; */
+ 
+}
+
+/* color palette
+#4a4e69 #22223b #f2a900 #f9f7f7 #9a8c98 */
 .blog-title {
   margin-left: 10px;
 }
