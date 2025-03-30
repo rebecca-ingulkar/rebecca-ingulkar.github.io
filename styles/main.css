@@ -179,7 +179,9 @@ h3 {
   /* background-color: #9a8c98; */
  
 }
-
+.checked {
+  color: orange;
+}
 /* color palette
 #4a4e69 #22223b #f2a900 #f9f7f7 #9a8c98 */
 .blog-title {
@@ -211,7 +213,7 @@ footer {
 h2 {
   padding: 10px 30px;
 }
-#values {
+.list {
   display: flex;
   flex-direction: column;
   padding: 0px 30px;
