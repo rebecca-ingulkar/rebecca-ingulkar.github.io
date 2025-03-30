@@ -165,6 +165,9 @@ h3 {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+iframe {
+  padding-left: 30px;
+}
 
 .latest-blog {
   /* border: 1px solid black; */
