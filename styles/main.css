@@ -169,6 +169,9 @@ iframe {
   padding-left: 30px;
   display: flex;
 }
+.title, h1 {
+  text-align: center;
+}
 
 .latest-blog {
   /* border: 1px solid black; */
@@ -232,6 +235,7 @@ h2 {
   background-color: #9a8c98;
   color: #22223b;
 }
+
 
 
 /*   ----    BOTTOM NAVIGATION  -----   */
